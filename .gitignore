@@ -1,0 +1,109 @@
+# =====================================================================
+# Dino Garden Live Wallpaper - .gitignore
+# Standard Android Studio / Gradle / Kotlin project ignores
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Gradle
+# ---------------------------------------------------------------------
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+!gradle-wrapper.properties
+
+# Gradle local configuration (machine-specific SDK paths, etc.)
+local.properties
+
+# Gradle build cache
+.gradletasknamecache
+
+# ---------------------------------------------------------------------
+# Android Studio / IntelliJ
+# ---------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Keep shared run configurations and code style settings if desired;
+# uncomment the lines below if you intentionally check those in.
+# !.idea/runConfigurations/
+# !.idea/codeStyles/
+
+# ---------------------------------------------------------------------
+# Android-specific
+# ---------------------------------------------------------------------
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Local Android SDK / NDK references
+local.properties
+
+# ProGuard / R8 mapping output
+proguard/
+mapping/
+
+# Keystore files - never commit signing keys
+*.jks
+*.keystore
+
+# Google Services config (contains project-specific keys)
+# Uncomment if this project integrates Firebase and you don't want
+# the config committed:
+# google-services.json
+
+# ---------------------------------------------------------------------
+# Kotlin
+# ---------------------------------------------------------------------
+.kotlin/
+
+# ---------------------------------------------------------------------
+# Build artifacts / logs
+# ---------------------------------------------------------------------
+*.log
+output.json
+*.bak
+
+# ---------------------------------------------------------------------
+# OS / Editor cruft
+# ---------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# VS Code (if used alongside Android Studio for docs/scripts)
+.vscode/
+
+# ---------------------------------------------------------------------
+# Test / coverage output
+# ---------------------------------------------------------------------
+*.exec
+/coverage/
+test-results/
+reports/

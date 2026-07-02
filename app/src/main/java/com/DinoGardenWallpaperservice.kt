@@ -312,3 +312,4 @@ class DinoGardenWallpaperService : WallpaperService() {
             canvas.drawBitmap(bgBitmap, src, dst, null)
         }
     }
+}

@@ -52,11 +52,9 @@ class DinoGardenWallpaperService : WallpaperService() {
         private var dinoHeight = 0
         private var dinoFrameIndex = 0
         private var lastFrameSwitchAt = 0L
-
         private var obstacleX = 0f
         private var obstacleWidth = 0
         private var obstacleHeight = 0
-
         private var lastUpdateAt = 0L
 
         private val handlerThread = HandlerThread("DinoGardenRenderThread").apply { start() }

@@ -74,9 +74,7 @@ class DinoGardenWallpaperService : WallpaperService() {
         private lateinit var dinoRun1: Bitmap
         private lateinit var dinoRun2: Bitmap
         private lateinit var obstacleBitmap: Bitmap
-
         private lateinit var connectivityManager: ConnectivityManager
-
         private val networkCallback = object : ConnectivityManager.NetworkCallback() {
             override fun onLost(network: Network) {
                 renderHandler.post { switchToOffline() }

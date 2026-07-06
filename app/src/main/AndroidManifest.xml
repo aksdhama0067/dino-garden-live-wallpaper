@@ -25,6 +25,5 @@
                 android:name="android.service.wallpaper"
                 android:resource="@xml/wallpaper_info" />
         </service>
-
     </application>
 </manifest>

@@ -1,7 +1,7 @@
 name: Android CI
 
 # Run a full build + test pass on every push to main and on every
-# pull request targeting main, so broken builds never land silently.
+# pull request targeting main, so broken builds never land 
 on:
   push:
     branches: [ "main" ]
